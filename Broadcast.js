@@ -20,7 +20,7 @@ const Discord = require("discord.js");
             
                                                   });
    kboosh.on("message", message => {
-       var prefix = "%";
+       var prefix = "abc";
  
              var args = message.content.substring(prefix.length).split(" abc");
                 if (message.content.startsWith(prefix + "b")) {
